@@ -52,7 +52,7 @@ class MainContent extends React.Component {
                 <form id="meme-form" onSubmit={this.generate}>
                     <input placeholder="top text" type="text" name="topText" onChange={this.textHandler}/>
                     <input placeholder="bottom text" type="text" name="bottomText" onChange={this.textHandler}/>
-                    <button>Generate</button>
+                    <button>Generate Next</button>
                 </form>
                 <div id="meme-container">
                     <img alt="troll" src={this.state.randomImg} className="meme-img" />
