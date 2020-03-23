@@ -69,6 +69,9 @@ img.meme-img {
 #meme-form{
   text-align: center;
 }
+#meme-form button:active{
+box-shadow: inset 0px 0px 7px #00000047 !important;
+}
 #meme-form button {
   background: #f6f6f6;
   border: none;
