@@ -6,7 +6,7 @@ class MainContent extends React.Component {
         this.state = {
             topText:"",
             bottomText:"",
-            randomImg:"",
+            randomImg:"https://i.imgflip.com/1g8my4.jpg",
             allMemeImgs:[],
         }
         this.textHandler = this.textHandler.bind(this)
@@ -39,7 +39,6 @@ class MainContent extends React.Component {
             .then(res=> {
                 this.setState({
                     allMemeImgs:res.data.memes,
-                    randomImg:res.data.memes[2].url
                 })
             })
     }
